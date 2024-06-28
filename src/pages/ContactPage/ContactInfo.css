@@ -1,0 +1,48 @@
+.contact-container {
+    padding: 40px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-container p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-container p a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-container p a:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .contact-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-container p {
+        font-size: 1rem;
+    }
+}

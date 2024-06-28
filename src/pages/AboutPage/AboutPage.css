@@ -1,0 +1,41 @@
+.about-container {
+    padding: 0 120px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-container h2 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-container p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-container p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 0 20px;
+    }
+
+    .about-container h2 {
+        font-size: 2rem;
+    }
+
+    .about-container p {
+        font-size: 1rem;
+    }
+}
